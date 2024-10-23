@@ -1,0 +1,310 @@
+<style>
+{
+	box-sizing: border-box;
+} 
+/*button create with all file classes*/
+.buttonc{
+    display: block;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 47%;
+    margin-right: 45%;
+    padding-left: 3px;
+    padding-top: 13px;
+    padding-bottom: 14px;
+}
+/*this is called as search.html button class="button"*/
+.button{
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 11px;
+    padding-left: 5 px;
+    padding-right: 5px;
+    margin-top: 5px;
+    top: 2px;
+    bottom: 22px;
+    margin-bottom: 6px;
+    margin-left: 11px;
+}
+/*this is files are common  classes create with div=top div=topa div=prop h2=new */
+.top
+{
+    display: block;
+    text-align: right;
+}
+.topa
+{
+    color: black;
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 21px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 0px;
+}
+.prop
+{
+    text-align: center;
+    display: block;
+    width: 800px;
+    position: absolute;
+    background-color: none;
+    top: 8%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+/*there is homepage div class=top1 bottom */
+.top1{
+    display: block;
+    text-align: center;
+    margin-top: 2.5cm;
+}
+
+/* this is class create with  homepage class=h1prob*/
+.h1prop
+{
+	text-align:center;
+	display:block;
+	width:800px;
+	background-color:none;
+	position:absolute;
+	top:6%;
+	left:50%;
+	right:50%;
+	padding-left:50px;
+	padding-right:50px;
+	transform: translate(-50%,-50%);
+	font-family:  Le Jour Serif;
+	margin-top: 1%;
+}
+/*img src class create with menuicon*/
+.menuicon{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    margin-top: 5px;
+}
+/*this is create in home page h3 class*/
+.container
+{
+	display: block;
+    object-fit: cover;
+    border-radius: 1px;
+    pointer-events: auto;
+    width: 100%;
+	width: 200px;
+	height: 230px;
+	margin-left: 5cm;
+	margin-top:3cm;
+} 
+
+.fonttimes_roman{
+	font-family:  Le Jour Serif;
+	text-align: justify;
+	margin-left: 5cm;
+	margin-right: 10cm;
+	color:black;	
+}
+.content
+{
+	margin-left: 5cm;
+	margin-top: 1cm;
+	font-family:  Le Jour Serif;
+}
+.contain
+{
+	margin-left: 5cm;
+	margin-top: 1cm;
+	font-family:  Le Jour Serif;
+}
+.gradient-background {
+    background: linear-gradient(to right, #ff4e50, #f9d423);
+}
+.new
+{
+    display: block;
+    margin-top: 77px;
+    color: #000000;
+    font-family:  Le Jour Serif;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+footer {
+    background-color: #FFFFFF;
+    margin-top: 1cm;
+    color: #E797B0;
+    padding: 20px 0;
+    font-family:  Le Jour Serif;
+    text-align: right;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-container img {
+  width: 25x;
+  height: 25px;
+  height: auto;
+  display: block;
+}
+
+
+
+.span 
+{
+	 margin-left: 3cm;
+	 margin-top: 1cm;
+}
+.para 
+{
+    text-align: justify;
+    font-family:  Le Jour Serif;
+    margin-left: 0cm;
+    margin-right: 5cm;
+    margin-bottom: 5cm;
+    text-decoration: none;
+}
+.details
+{
+	margin-left: 3cm;
+	margin-top: 1cm;
+	font-family:  Le Jour Serif;
+	text-align: justify;
+	font-weight: bold;
+	
+}
+.para
+{
+    text-align: left;
+    margin-left: 3cm;
+    margin-right: 5cm;
+    margin-bottom: 3cm;
+    font-family: Le Jour Serif;
+	
+}
+</span><span style="font-family: verdana, geneva, sans-serif;">body {
+  background-color: none;
+  font-family:  Le Jour Serif;
+}
+
+.login-box {
+  width: 360px;
+  height: 280px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: white;
+margin-top: 8%;
+}
+
+h1,h2{
+    text-align: center;
+    padding-top: 15px;
+    font-size: xx-large;
+    margin-top: 39px;
+    margin-bottom: 20px;
+}
+
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+input[type="button"] {
+  width: 100px;
+  margin-top: 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  margin-left:110px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 1rem;
+  
+}
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.para-2 {
+  text-align: center;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.para-2 a {
+  text-decoration: none;
+}
+.pass
+{
+	margin-top: 5px;
+}
+.pass a 
+{
+	text-decoration: none;
+	color: black;
+}
+
+.container
+{
+    margin-top: 2cm;
+    font-size: 21px;
+    font-weight: bold;
+    display: inline-block;
+
+}
+.container a 
+{
+	text-decoration: none;
+	color:black;
+}
+.time a,.roman a
+{
+	text-decoration: none;		
+}
+/*there is all filesimg src div class=*/
+.image
+{
+    display: flex;
+    flex-direction: row;
+   row-gap: 100px;
+	justify-content: center;
+ align-items: center;
+}
+@media (max-height:1080px){
+	.container, .contain ,.fonttimes_roman		
+	}
+@media (max-width:1920px){
+}
+@media (min-width:480px){
+}
+</style>
